@@ -1,0 +1,11 @@
+doc_id,status,is_invoice,vendor,invoice_number,invoice_date,currency,tax_total,total,schema_valid
+L01,completed,1,1,1,1,1,1,1,1
+L02,ocr_unavailable,0,,,,,,,0
+L03,completed,1,1,1,1,1,1,1,1
+L04,completed,1,1,1,1,1,1,1,0
+L05,completed,1,1,1,1,1,1,1,1
+L06,completed,1,1,1,1,1,1,1,0
+L07,completed,1,1,1,1,1,1,1,0
+L08,completed,1,1,1,1,1,1,1,1
+L09,ocr_unavailable,0,,,,,,,0
+L10,ocr_unavailable,0,,,,,,,0

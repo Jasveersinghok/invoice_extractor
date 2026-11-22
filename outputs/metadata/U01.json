@@ -1,0 +1,20 @@
+{
+  "processing_status": "completed",
+  "needs_review": false,
+  "review_reasons": [],
+  "validation_errors": [],
+  "input_mode": "text",
+  "model": "nvidia/nemotron-3.5-super-vl",
+  "prompt_version": "v1",
+  "input_tokens": 970,
+  "output_tokens": 141,
+  "api_calls": 0,
+  "api_retry_count": 0,
+  "correction_attempted": false,
+  "correction_outcome": "n/a",
+  "cost_usd": 0.0,
+  "seconds": 0.01,
+  "price_in_per_mtok": 0.06,
+  "price_out_per_mtok": 0.35,
+  "price_date": "2026-11-22"
+}

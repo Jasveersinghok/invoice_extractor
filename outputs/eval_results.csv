@@ -1,0 +1,11 @@
+stem,status,is_invoice,vendor_strict,vendor_lenient,invoice_number,invoice_date,currency,tax_total,total,line_tp,line_fp,line_fn,line_f1,line_whole_correct,line_order_correct,doc_exact_match,schema_valid,totals_ok
+L01,ok,True,True,True,True,True,True,True,True,4,0,0,1.0,True,True,True,True,True
+L02,ok,True,True,True,True,True,True,False,True,6,0,0,1.0,True,True,False,True,False
+L03,ok,True,True,True,True,True,True,True,True,4,0,0,1.0,True,True,True,True,True
+L04,ok,True,True,True,True,True,True,True,True,24,0,0,1.0,True,True,True,True,True
+L05,ok,True,True,True,True,True,True,True,True,10,0,0,1.0,True,True,True,True,True
+L06,ok,True,True,True,True,True,True,True,True,4,0,0,1.0,True,True,True,True,True
+L07,ok,True,True,True,True,True,True,True,True,4,0,0,1.0,True,True,True,True,True
+L08,ok,True,True,True,True,True,True,True,True,0,0,0,,True,True,True,True,True
+L09,ok,True,True,True,True,True,True,True,True,5,0,0,1.0,True,True,True,True,True
+L10,ok,True,True,True,True,True,True,True,True,5,0,0,1.0,True,True,True,True,True

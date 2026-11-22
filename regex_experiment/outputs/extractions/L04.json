@@ -1,0 +1,16 @@
+{
+  "is_invoice": true,
+  "vendor": "Meridian Print & Pack LLP",
+  "invoice_number": "MPP-2026-0207",
+  "invoice_date": "2026-02-17",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Die-cut tooling charge (one-time)",
+      "quantity": 1.0,
+      "amount": 6200.0
+    }
+  ],
+  "tax_total": 32194.8,
+  "total": 300484.8
+}

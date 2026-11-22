@@ -1,0 +1,511 @@
+{
+  "extractor": "regex",
+  "n_docs_evaluated": 10,
+  "doc_exact_match": 4,
+  "schema_valid": 4,
+  "fields": {
+    "is_invoice": {
+      "correct": 7,
+      "total": 10,
+      "accuracy": 0.7
+    },
+    "vendor": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "invoice_number": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "invoice_date": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "currency": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "tax_total": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "total": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "schema_valid": {
+      "correct": 4,
+      "total": 10,
+      "accuracy": 0.4
+    }
+  },
+  "line_items": {
+    "tp": 24,
+    "fp": 1,
+    "fn": 42,
+    "precision": 0.96,
+    "recall": 0.3636,
+    "f1": 0.5275
+  },
+  "per_doc": [
+    {
+      "doc_id": "L01",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": true
+      },
+      "li": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": [
+          {
+            "pred_idx": 0,
+            "truth_idx": 0,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 1,
+            "truth_idx": 1,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 2,
+            "truth_idx": 2,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 3,
+            "truth_idx": 3,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          }
+        ],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": true,
+        "order_correct": true,
+        "both_null": false
+      },
+      "schema_valid": true
+    },
+    {
+      "doc_id": "L02",
+      "status": "ocr_unavailable",
+      "fields": {
+        "is_invoice": false,
+        "vendor": null,
+        "invoice_number": null,
+        "invoice_date": null,
+        "currency": null,
+        "tax_total": null,
+        "total": null,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null,
+        "matched_pairs": [],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": false,
+        "order_correct": false,
+        "both_null": false
+      },
+      "schema_valid": false
+    },
+    {
+      "doc_id": "L03",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": true
+      },
+      "li": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": [
+          {
+            "pred_idx": 0,
+            "truth_idx": 0,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 1,
+            "truth_idx": 1,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 2,
+            "truth_idx": 2,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 3,
+            "truth_idx": 3,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          }
+        ],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": true,
+        "order_correct": true,
+        "both_null": false
+      },
+      "schema_valid": true
+    },
+    {
+      "doc_id": "L04",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": null,
+        "matched_pairs": [],
+        "right_item_wrong_amount": 1,
+        "whole_list_correct": false,
+        "order_correct": false,
+        "both_null": false
+      },
+      "schema_valid": false
+    },
+    {
+      "doc_id": "L05",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": true
+      },
+      "li": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": [
+          {
+            "pred_idx": 0,
+            "truth_idx": 0,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 1,
+            "truth_idx": 1,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 2,
+            "truth_idx": 2,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 3,
+            "truth_idx": 3,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 4,
+            "truth_idx": 4,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 5,
+            "truth_idx": 5,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 6,
+            "truth_idx": 6,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 7,
+            "truth_idx": 7,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 8,
+            "truth_idx": 8,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 9,
+            "truth_idx": 9,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          }
+        ],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": true,
+        "order_correct": true,
+        "both_null": false
+      },
+      "schema_valid": true
+    },
+    {
+      "doc_id": "L06",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "matched_pairs": [
+          {
+            "pred_idx": 0,
+            "truth_idx": 0,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 1,
+            "truth_idx": 2,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 2,
+            "truth_idx": 3,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          }
+        ],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": false,
+        "order_correct": true,
+        "both_null": false
+      },
+      "schema_valid": false
+    },
+    {
+      "doc_id": "L07",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "matched_pairs": [
+          {
+            "pred_idx": 0,
+            "truth_idx": 0,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 1,
+            "truth_idx": 1,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          },
+          {
+            "pred_idx": 2,
+            "truth_idx": 2,
+            "sim": 1.0,
+            "qty_match": true,
+            "desc_exact_match": true
+          }
+        ],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": false,
+        "order_correct": true,
+        "both_null": false
+      },
+      "schema_valid": false
+    },
+    {
+      "doc_id": "L08",
+      "status": "completed",
+      "fields": {
+        "is_invoice": true,
+        "vendor": true,
+        "invoice_number": true,
+        "invoice_date": true,
+        "currency": true,
+        "tax_total": true,
+        "total": true,
+        "schema_valid": true
+      },
+      "li": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "matched_pairs": [],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": true,
+        "order_correct": false,
+        "both_null": false
+      },
+      "schema_valid": true
+    },
+    {
+      "doc_id": "L09",
+      "status": "ocr_unavailable",
+      "fields": {
+        "is_invoice": false,
+        "vendor": null,
+        "invoice_number": null,
+        "invoice_date": null,
+        "currency": null,
+        "tax_total": null,
+        "total": null,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null,
+        "matched_pairs": [],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": false,
+        "order_correct": false,
+        "both_null": false
+      },
+      "schema_valid": false
+    },
+    {
+      "doc_id": "L10",
+      "status": "ocr_unavailable",
+      "fields": {
+        "is_invoice": false,
+        "vendor": null,
+        "invoice_number": null,
+        "invoice_date": null,
+        "currency": null,
+        "tax_total": null,
+        "total": null,
+        "schema_valid": false
+      },
+      "li": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null,
+        "matched_pairs": [],
+        "right_item_wrong_amount": 0,
+        "whole_list_correct": false,
+        "order_correct": false,
+        "both_null": false
+      },
+      "schema_valid": false
+    }
+  ]
+}

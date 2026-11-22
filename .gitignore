@@ -9,8 +9,10 @@ sample_pack/
 # Assignment PDF
 "EsMagico - AI Internship Assignment (1).pdf"
 
-# Runtime outputs (regenerated on each run)
-outputs/
+# Runtime outputs — only commit results, not cache/uploads/intermediate
+outputs/cache/
+outputs/uploads/
+outputs/extractions_vision_exp/
 
 # Regex experiment outputs
 regex_experiment/outputs/text/
