@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Sample pack (read from DATA_DIR; never committed)
+labelled/
+unlabelled/
+sample_pack/
+
+# Assignment PDF
+"EsMagico - AI Internship Assignment (1).pdf"
+
+# Runtime outputs (regenerated on each run)
+outputs/
+
+# Regex experiment outputs
+regex_experiment/outputs/text/
+regex_experiment/scratch/
+
+# Scratch / temp scripts
+scratch/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
